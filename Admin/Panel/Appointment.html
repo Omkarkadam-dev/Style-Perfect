@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style & Perfect - Appointments</title>
+    <link rel="stylesheet" href="Appointment.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Style & Perfect</h2>
+            <p>Admin Panel</p>
+        </div>
+        <ul class="nav-list">
+            <li><a href="/Admin/Admin.html">Dashboard</a></li>
+            <li><a href="appointment.html" class="active">Appointment</a></li>
+            <li><a href="/Admin/Panel/Customer list.html">Customer List</a></li>
+            <li><a href="/Admin/Panel/Sales_report.html">Sales Report</a></li>
+            <li><a href="/Admin/Panel/Invoices.html">Invoices</a></li>
+            <li><a href="/Admin/Panel/Search_Appointment.html">Search Appointment</a></li>
+            <li><a href="/Admin/Panel/Search_Invoice.html">Search Invoice</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="top-bar">
+            <div class="user-info">
+                <p><span class="user-name">Admin</span> <span class="role">Administrator</span></p>
+            </div>
+        </div>
+
+        <div class="appointments">
+            <h2>Appointments</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Appointment ID</th>
+                        <th>Customer Name</th>
+                        <th>Service</th>
+                        <th>Appointment Date</th>
+                        <th>Time</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>APT001</td>
+                        <td>John</td>
+                        <td>Haircut</td>
+                        <td>09/10/2024</td>
+                        <td>10:00 AM</td>
+                        <td><span class="status confirmed">Confirmed</span></td>
+                        <td>
+                            <button class="action-btn">Edit</button>
+                            <button class="action-btn delete">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>APT002</td>
+                        <td>Naina</td>
+                        <td>Manicure</td>
+                        <td>09/11/2024</td>
+                        <td>01:00 PM</td>
+                        <td><span class="status pending">Pending</span></td>
+                        <td>
+                            <button class="action-btn">Edit</button>
+                            <button class="action-btn delete">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>APT003</td>
+                        <td>Om</td>
+                        <td>Shave</td>
+                        <td>09/12/2024</td>
+                        <td>11:00 AM</td>
+                        <td><span class="status cancelled">Cancelled</span></td>
+                        <td>
+                            <button class="action-btn">Edit</button>
+                            <button class="action-btn delete">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Style & Perfect Admin Panel.</p>
+        </div>
+    </div>
+</body>
+</html>

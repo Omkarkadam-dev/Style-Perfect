@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.service-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    align-items: center;
+}
+
+.service-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.service-content h2 {
+    font-size: 5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.service-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.service-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.service-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    width: 800px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* New Styles for Additional Services */
+.additional-services {
+    padding: 50px 0;
+}
+
+.service-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-box h3 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.service-box p {
+    font-size: 1.3em;
+    color: #666;
+}
+
+.price {
+    font-size: 6.6em;
+    color: #e67e22;
+    margin: 10px 0;
+}
+
+.book-now {
+    background-color: hsl(36, 61%, 58%);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.book-now:hover {
+    background-color: rgb(54, 50, 50);
+}
+
+@media (max-width: 768px) {
+    .service-section,
+    .additional-services {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-content,
+    .service-image {
+        flex: none;
+        width: 100%;
+    }
+}

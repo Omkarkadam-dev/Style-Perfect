@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style & Perfect - Search Invoice</title>
+    <link rel="stylesheet" href="Search_Invoice.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Style & Perfect</h2>
+            <p>Admin Panel</p>
+        </div>
+        <ul class="nav-list">
+            <li><a href="/Admin/Admin.html">Dashboard</a></li>
+            <li><a href="/Admin/Panel/Appointment.html">Appointment</a></li>
+            <li><a href="/Admin/Panel/Customer_list.html">Customer List</a></li>
+            <li><a href="/Admin/Panel/Sales_report.html">Sales Report</a></li>
+            <li><a href="/Admin/Panel/Invoices.html">Invoices</a></li>
+            <li><a href="/Admin/Panel/Search_Appointment.html">Search Appointment</a></li>
+            <li><a href="/Admin/Panel/Search_Invoice.html" class="active">Search Invoice</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="top-bar">
+            <div class="user-info">
+                <p><span class="user-name">Admin</span> <span class="role">Administrator</span></p>
+            </div>
+        </div>
+
+        <div class="search-section">
+            <h2>Search Invoice</h2>
+            <div class="search-form">
+                <label for="search-input">Enter Invoice ID or Customer Name:</label>
+                <input type="text" id="search-input" placeholder="Invoice ID or Customer Name">
+                <button class="search-btn">Search</button>
+            </div>
+
+            <div class="search-results">
+                <h3>Results:</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Invoice ID</th>
+                            <th>Customer Name</th>
+                            <th>Date</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Search results will be populated here -->
+                        <tr>
+                            <td>INV001</td>
+                            <td>Omkar</td>
+                            <td>09/10/2024</td>
+                            <td>$50</td>
+                            <td><span class="status paid">Paid</span></td>
+                            <td>
+                                <button class="action-btn">View</button>
+                                <button class="action-btn edit">Edit</button>
+                                <button class="action-btn delete">Delete</button>
+                            </td>
+                        </tr>
+                        <!-- Additional rows can be added here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Style & Perfect Admin Panel.</p>
+        </div>
+    </div>
+</body>
+
+</html>

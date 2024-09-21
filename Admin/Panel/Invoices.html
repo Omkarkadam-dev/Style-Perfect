@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style & Perfect - Invoices</title>
+    <link rel="stylesheet" href="Invoices.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Style & Perfect</h2>
+            <p>Admin Panel</p>
+        </div>
+        <ul class="nav-list">
+            <li><a href="/Admin/Admin.html">Dashboard</a></li>
+            <li><a href="/Admin/Panel/Appointment.html">Appointment</a></li>
+            <li><a href="/Admin/Panel/Customer_list.html">Customer List</a></li>
+            <li><a href="/Admin/Panel/Sales_report.html">Sales Report</a></li>
+            <li><a href="/Admin/Panel/Invoices.html" class="active">Invoices</a></li>
+            <li><a href="/Admin/Panel/Search_Appointment.html">Search Appointment</a></li>
+            <li><a href="/Admin/Panel/Search_Invoice.html">Search Invoice</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="top-bar">
+            <div class="user-info">
+                <p><span class="user-name">Admin</span> <span class="role">Administrator</span></p>
+            </div>
+        </div>
+
+        <div class="invoices-section">
+            <h2>Invoices</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Invoice ID</th>
+                        <th>Customer Name</th>
+                        <th>Date</th>
+                        <th>Total Amount</th>
+                        <th>Payment Method</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>INV001</td>
+                        <td>Omkar</td>
+                        <td>09/12/2024</td>
+                        <td>₹1500</td>
+                        <td>Credit Card</td>
+                        <td>
+                            <button class="action-btn">View</button>
+                            <button class="action-btn edit">Edit</button>
+                            <button class="action-btn delete">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>INV002</td>
+                        <td>Naina</td>
+                        <td>09/11/2024</td>
+                        <td>₹2000</td>
+                        <td>PayPal</td>
+                        <td>
+                            <button class="action-btn">View</button>
+                            <button class="action-btn edit">Edit</button>
+                            <button class="action-btn delete">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>INV003</td>
+                        <td>John</td>
+                        <td>09/10/2024</td>
+                        <td>₹1800</td>
+                        <td>Cash</td>
+                        <td>
+                            <button class="action-btn">View</button>
+                            <button class="action-btn edit">Edit</button>
+                            <button class="action-btn delete">Delete</button>
+                        </td>
+                    </tr>
+                    <!-- Additional rows can be added here -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Style & Perfect Admin Panel.</p>
+        </div>
+    </div>
+</body>
+
+</html>

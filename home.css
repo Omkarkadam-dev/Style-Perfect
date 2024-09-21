@@ -1512,13 +1512,13 @@ a.contact-link:is(:hover, :focus) {
     text-align: center;
     height: 300px;
   }
-
+  
   .section.donation .section-title {
     font-size: 32px;
     color: #333;
     margin-bottom: 20px;
   }
-
+  
   .section.donation .section-text {
     font-size: 18px;
     color: #555;
@@ -1526,7 +1526,48 @@ a.contact-link:is(:hover, :focus) {
     max-width: 800px;
     margin: 0 auto 20px;
   }
-
+  
+  /* Responsive styles */
+  
+  /* For large screens (desktops) */
+  @media only screen and (min-width: 1200px) {
+    .section.donation {
+      height: 400px;
+    }
+    .section.donation .section-title {
+      font-size: 40px;
+    }
+    .section.donation .section-text {
+      font-size: 22px;
+    }
+  }
+  
+  /* For medium screens (tablets) */
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .section.donation {
+      height: 350px;
+    }
+    .section.donation .section-title {
+      font-size: 36px;
+    }
+    .section.donation .section-text {
+      font-size: 20px;
+    }
+  }
+  
+  /* For small screens (mobiles) */
+  @media only screen and (max-width: 767px) {
+    .section.donation {
+      height: 250px;
+      padding: 40px 0;
+    }
+    .section.donation .section-title {
+      font-size: 28px;
+    }
+    .section.donation .section-text {
+      font-size: 16px;
+    }
+  }
   /*BUTTON*/
 
   .donation-buttons {

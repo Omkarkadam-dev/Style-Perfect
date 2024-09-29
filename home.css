@@ -1568,40 +1568,7 @@ a.contact-link:is(:hover, :focus) {
       font-size: 16px;
     }
   }
-  /*BUTTON*/
-
-  .donation-buttons {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-
-  }
-
-  .donation-buttons .btn {
-    background-color: #c79242;
-    color: rgb(255, 255, 255);
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
-    display: inline-flex;
-    align-items: center;
-    transition: background-color 0.3s ease;
-    height: 50px;
-    width: 400px;
-    margin-top: 580px;
-  }
-
-  .donation-buttons .btn:hover {
-    background-color: #d0a462;
-  }
-
-  .donation-buttons .btn .span {
-    margin-right: 10px;
-  }
-
-
+  
 
   /**
    * FOOTER
